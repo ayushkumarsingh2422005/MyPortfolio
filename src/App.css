@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+  user-select: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #050816;
+}
