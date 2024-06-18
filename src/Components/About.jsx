@@ -23,7 +23,7 @@ export default function About() {
         <br />
         <span className='text-7xl font-bold'>Overview</span><br /><br />
         <span className='text-xl'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo alias eaque veritatis. Quaerat doloribus repellat laudantium quisquam laborum. Distinctio, eum soluta. Ut repellat quidem, pariatur tenetur illum magnam illo quae, accusamus incidunt commodi ducimus. Facilis excepturi assumenda blanditiis harum magni quisquam velit repellat maiores repellendus nesciunt, odit animi fugit!
+        I'm Ayush Kumar, a passionate BTech CSE student at NIT Jamshedpur. With a love for technology, I specialize in full-stack development, Android app development, and machine learning. I thrive on crafting innovative solutions and creating seamless user experiences. Explore my journey and projects to see how I'm shaping the future of tech, one line of code at a time. <br /><br />My experties are as follow
         </span> <br /><br /><br />
 
         <div className='flex gap-6 flex-wrap justify-center'>

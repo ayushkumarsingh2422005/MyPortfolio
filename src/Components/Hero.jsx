@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
           <div className='text-3xl'>
             <span className='text-6xl font-bold'>Hi, I'm <span className='text-violet-400'>Ayush</span></span><br /><br />
-            I develop sexy designs, 3D web designs <br /> to, you meet a true developer
+            Crafting stunning 3D web designs that  <br /> redefine digital experiences.
           </div>
         </div>
 

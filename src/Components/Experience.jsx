@@ -1,6 +1,10 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import culfest from '../assets/ExperienceImages/culfest.png';
+import codophile from '../assets/ExperienceImages/codophile.png';
+import ojass from '../assets/ExperienceImages/ojass.png';
+import btbs from '../assets/ExperienceImages/btbs.png';
 
 export default function Experience() {
   return (
@@ -16,50 +20,54 @@ export default function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-              date="2011 - present"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            // icon={<WorkIcon />}
+              date="2023 - present"
+              iconStyle={{ background: '#111111', color: '#fff', padding: "4px" }}
+              icon={<img src={btbs} alt="myLogo" />}
             >
-              <h3 className="vertical-timeline-element-title">Creative Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <h3 className="vertical-timeline-element-title">Creative Head</h3>
+              <h4 className="vertical-timeline-element-subtitle">BTBS</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                UI/UX, Poster Designing
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2010 - 2011"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            // icon={<WorkIcon />}
+              date="2023 - 2024"
+              dateClassName="text-gray-200"
+              iconStyle={{ background: '#111111', color: '#fff', padding: "4px" }}
+              icon={<img src={ojass} alt="myLogo" />}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Hackathon Winner</h3>
+              <h4 className="vertical-timeline-element-subtitle">OJASS 2K23</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                Won a OJASS WEB-D hackathon in
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2008 - 2010"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            // icon={<WorkIcon />}
+              date="2023 - present"
+              dateClassName="text-gray-200"
+              iconStyle={{ background: '#111111', color: '#fff', padding: "4px" }}
+              icon={<img src={codophile} alt="myLogo" />}
+            >
+              <h3 className="vertical-timeline-element-title">Web Devloper</h3>
+              <h4 className="vertical-timeline-element-subtitle">Cdodphile.in</h4>
+              <p>
+                A easy to use CSS utality software
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2023 - 2024"
+              // contentStyle={{ color: '#fff' }}
+              dateClassName="text-gray-200"
+              iconStyle={{ background: '#111111', color: '#fff', padding: "4px" }}
+              icon={<img src={culfest} alt="myLogo" />}
             >
               <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+              <h4 className="vertical-timeline-element-subtitle">CULFEST 2023</h4>
               <p>
-                User Experience, Visual Design
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                User Experience, Visual Design
+                designed website for CULFEST 2023 for NIT JSR
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
